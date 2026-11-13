@@ -10,7 +10,6 @@ Coleção de seis jogos clássicos feitos em **Python + Pygame**, usados como ma
 | `Breakout.py` | Breakout | colisão de retângulos, vidas, ângulo da bola | Setas ou **A / D** · **R** reinicia |
 | `Tetris.py` | Tetris | matrizes, rotação de peças, linhas completas, níveis | **← →** move · **↓** desce · **↑** gira · **Espaço** queda rápida · **R** reinicia |
 | `TopGear.py` | Corrida pseudo-3D | projeção de perspectiva, dificuldade crescente | **← →** ou **A / D** troca de faixa · **R** / **Espaço** reinicia |
-| `TennisForTwo.py` | Tennis for Two (1958) | física: gravidade, parábola, quique, trigonometria (ângulo → velocidade) | **J1:** W/S ângulo · D bate  ·  **J2:** ↑/↓ ângulo · ← bate · **G** guia · **R** reinicia |
 | `Poker.py` | Texas Hold'em (você vs. bot) | dicionários, `Counter`, `itertools.combinations`, IA simples | **Mouse** (botões na tela) |
 
 ## ✅ Pré-requisitos
@@ -72,7 +71,6 @@ etib/
 ├── Breakout.py        # Jogo de quebrar blocos
 ├── Poker.py           # Texas Hold'em contra o bot
 ├── Tetris.py          # Tetris
-├── TennisForTwo.py    # Tennis for Two (1958), 2 jogadores
 ├── TopGear.py         # Corrida em perspectiva
 ├── snake.py           # Jogo da cobrinha
 ├── requirements.txt   # Dependências (pygame)
@@ -104,12 +102,6 @@ Todos seguem o mesmo esqueleto, o que ajuda a entender um e já saber ler os out
 - Salvar o **recorde** em um arquivo de texto para não perder ao fechar.
 - `Snake`: criar paredes que "atravessam" a tela (aparece do outro lado).
 - `Tetris`: mostrar a **próxima peça** (a variável `proxima_peca` já existe, falta desenhá-la).
-
-**Sobre o Tennis for Two** (bom para uma aula de Física + Programação)
-- Mude `GRAVIDADE` e veja a parábola mudar (tente simular a Lua: cerca de 1/6 da gravidade da Terra).
-- Aperte **G** para ver a trajetória prevista e compare com a fórmula do alcance, `v² · sen(2θ) / g`: qual ângulo dá o maior alcance?
-- Altere `REDE_ALTURA`, `COEF_QUICA` e `VELOCIDADE_BATIDA` e observe como o jogo fica mais fácil ou difícil.
-- Desafio: criar um **bot** para o Jogador 2, escolhendo o ângulo que faz a bola cair perto do Jogador 1.
 
 **Nível avançado** (desafios)
 - `Breakout`: blocos que precisam de 2 batidas e *power-ups*.
