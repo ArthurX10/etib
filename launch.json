@@ -1,0 +1,53 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Arquivo atual",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "python": "${command:python.interpreterPath}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Snake",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/snake.py",
+      "python": "${command:python.interpreterPath}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Breakout",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/Breakout.py",
+      "python": "${command:python.interpreterPath}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Tetris",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/Tetris.py",
+      "python": "${command:python.interpreterPath}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "TopGear",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/TopGear.py",
+      "python": "${command:python.interpreterPath}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Poker",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/Poker.py",
+      "python": "${command:python.interpreterPath}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
